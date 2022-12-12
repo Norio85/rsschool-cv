@@ -1,6 +1,21 @@
 body {
-    background-color: darkgreen;
+    width: 100%;
+    max-width: 1165px;
+    background-color: darksalmon;
+    margin: 0 auto;
 }
-h1 {
-    color: rgb(89, 0, 255);
+header {
+    background-color:rgb(125, 230, 230);
+    padding: 20px; 
 }
+header .title {
+  display: flex;
+  justify-content: center;
+}
+header .title img {
+    width: 200px;
+    height: 150px;
+    margin-bottom: -25px;
+    margin-top: -45px;
+}
+
