@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
     max-width: 1165px;
     background-color: darksalmon;
@@ -9,8 +12,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-image: url(/img/soty.jpg);
+    background-image: url(./img/soty.jpg);
     padding-top: 50px;
+    border-bottom: solid 5px #ab7445;
 }
 header .title {
   display: flex;
@@ -28,20 +32,22 @@ header .title h1 {
     margin-top: 0;
 }
 main {
-    background-image: url(/img/pchela.jpg);
+    background-image: url(./img/pchela.jpg);
+    background-repeat: no-repeat;
+    background-size: 1965px 1580px;
    
 }
 .photo article {
     display: flex;
     justify-content:space-between;
-    border-bottom:6px solid red;
 }
-.photo img {
+.photo .iam {
     width: 350px;
     height: 350px;
     border-radius: 170px; 
     margin-top: 50px;
     margin-left: 30px;
+    border: solid 5px #ab7445;
 }
 .photo .info {
     font-size: 30px;
@@ -55,8 +61,8 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap:160px;
-    
-   
+
+
 }
 .contacts div .uli {
     border-bottom: 1px solid black;
@@ -67,3 +73,90 @@ main {
     border-bottom: 1px solid black;
     padding-bottom: 30px;
 }
+.contacts .hobbies {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.contacts .code {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.cart h2 {
+    text-align: center;
+    align-items: center;
+}
+.mount .top {
+    margin-left: 17px;
+    min-width: 97%;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 100px;
+    border: solid 5px #ab7445;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper img {
+    width: 350px;
+}
+.box {
+    --uiMaskClipPath: var(--maskClipPath);
+    box-sizing: var(--maskBoxSizing, border-box);
+    display: var(--maskDisplay, inline-flex);
+    padding: var(--maskStrokeThickness, 3px);
+    clip-path: var(--uiMaskClipPath);
+    background-color: var(--maskStrokeColor, currentColor);
+    --maskStrokeColor: #ab7445;
+    --maskStrokeThickness: 5px;
+}
+.box, 
+.visual {
+    transition: var(--maskAnimationDuration, .2s) var(--maskAnimationTimingFunction, ease-out);
+}
+.visual{
+    max-width: 100%;
+    display: block;
+    clip-path: var(--uiMaskClipPath);
+}
+.box1 {
+    --maskClipPath: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.rim {
+    --maskAnimationduration: .4s;
+}
+.box1:hover,
+.box1:focus {
+    --maskClipPath: polygon(100% 0, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+}
+footer {
+    height: 130px;
+    margin-top: 30px;
+    background-image: url(./img/soty.jpg);
+    border-top: solid 5px #ab7445;
+}
+footer .pod {
+    display: flex;
+    justify-content: space-around;
+}
+footer p {
+    padding-top: 45px;
+    color: white;
+}
+footer .logo img {
+    width: 100px;
+    height: 100px;
+    margin-top: 12px;
+}
+.pod p::before {
+   content: open-quote;
+}
+.pod p::after {
+    content: close-quote;
+ }
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
