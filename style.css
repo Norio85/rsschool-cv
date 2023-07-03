@@ -25,3 +25,62 @@ body {
     background-color: rgb(73, 73, 104);
     margin: 0 auto;
 }
+
+.about {
+    padding: 35px 0 20px 0;
+    border-bottom: solid 3px gray;
+}
+.about-title {
+    text-align: center;
+    text-decoration:dashed;
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.about-img img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 185px;
+    border: 10px solid white;
+}
+.about-text {
+    width: 500px;
+    font-size: 25px;
+    color: antiquewhite;
+    align-self: center;
+}
+.contacts {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid gray;
+}
+
+.contacts-more {
+    text-align: center;
+    font-size: 35px;
+    color: antiquewhite;
+}
+.contacts-items {
+    list-style-type: none;
+
+}
+.contacts-item {
+    margin-bottom: 10px;
+}
+.contacts-document {
+    margin: 20px 0 0 48px;
+}
+.skills-item {
+    margin-bottom: 10px;
+}
+.code {
+    width: 158px;
+}
