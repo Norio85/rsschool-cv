@@ -1,3 +1,27 @@
 body {
+    box-sizing: border-box;
     background-color: aqua;
+    margin: 0;
+}
+
+.header-down {
+    height: 110px;
+    text-align: center;
+    border-bottom: solid 3px gray;
+}
+.header-title {
+   margin: 0;
+   color: antiquewhite;
+   font-weight: 900;
+   font-size: 50px;
+}
+.header-value {
+  font-size: 40px;
+  color: antiquewhite;
+}
+
+.container {
+    width: 1420px;
+    background-color: rgb(73, 73, 104);
+    margin: 0 auto;
 }
