@@ -1,0 +1,157 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(93, 106, 134);
+    margin: 0;
+}
+
+.header-down {
+    height: 110px;
+    text-align: center;
+    border-bottom: solid 3px gray;
+}
+.header-title {
+   margin: 0;
+   color: antiquewhite;
+   font-weight: 900;
+   font-size: 50px;
+}
+.header-value {
+  font-size: 40px;
+  color: antiquewhite;
+}
+
+.container {
+    width: 1420px;
+    background-color: rgb(107, 96, 122);
+    margin: 0 auto;
+}
+
+.about {
+    padding: 35px 0 20px 0;
+    border-bottom: solid 3px gray;
+}
+.about-title {
+    text-align: center;
+    text-decoration:dashed;
+    font-size: 35px;
+    color: antiquewhite;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.about-img img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 185px;
+    border: 10px solid white;
+}
+.about-text {
+    width: 500px;
+    font-size: 25px;
+    color: antiquewhite;
+    align-self: center;
+}
+.contacts {
+    padding: 40px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid gray;
+    
+}
+.contacts-title {
+    background-color: antiquewhite;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.contacts-more {
+    text-align: center;
+    font-size: 35px;
+    color: antiquewhite;
+}
+.contacts-items {
+    list-style-type: none;
+    font-size: 25px;
+
+}
+.contacts-item {
+    margin-bottom: 10px;
+}
+.contacts-document {
+    margin: 20px 0 0 48px;
+}
+.skills {
+    background-color: antiquewhite;
+    padding:20px;
+    border-radius: 10px;
+}
+.skills-item {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.code {
+    width: 158px;
+    background-color: antiquewhite;
+    padding:20px;
+    border-radius: 10px;
+}
+.code-visible {
+    font-size: 25px;
+}
+.work {
+   text-align: center;
+   font-size: 25px;
+   color: antiquewhite;
+}
+.fais {
+    width: 500px;
+    padding: 20px 0 20px 0;
+}
+.fais-text {
+    font-size: 30px;
+}
+span {
+    color: burlywood;
+}
+.photo img {
+    display: block;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: solid 3px white;
+    object-fit: cover;
+}
+.photo {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.lang {
+    margin-top: 30px;
+    font-size: 35px;
+    color: antiquewhite;
+    width: 300px;
+    background-color:chocolate;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 2px white;
+}
+.footer-info {
+    padding: 30px;
+    border-top: 5px solid gray;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-info img {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.footer-info p {
+    font-size: 40px;
+}
